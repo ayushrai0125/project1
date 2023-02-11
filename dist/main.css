@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: 1;
+}
+
+.info-box{
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    z-index: 2;
+    position: absolute;
+    color:white;
+    top: 0;
+    display: none;
+    background-color: rgba(31, 32, 36,.9);
+    width: 600px;
+    border-radius: 20px;
+}
+
+.info-box div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.info-box p{
+    color: white;
+    height: 200px;
+    overflow-y: scroll;
+    padding: 6px;
+}
+
+img{
+    width:400px;
+    padding: 20px;
+}
+
+::-webkit-scrollbar{
+    width:1em;
+}
+
+::-webkit-scrollbar-track{
+    background: #e4e4e4;
+    border-radius: 0 25vw 0 25vw;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 0 25vw 0 25vw;
+    background: #aaaaaa;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #5a5a5a;
+}
+
+.material-symbols-outlined:hover{
+    cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map*/
